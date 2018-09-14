@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     });
 });
 
-$('#navbar').affix({
+$('.navbar').affix({
 	offset: {
 		top: 100
 	}
